@@ -1,44 +1,68 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Monitor, Building, Zap, Globe, Target, Megaphone } from 'lucide-react';
+import { Building, Signpost, Car, Lamp, Monitor, Bus, MapPin, Train, TrainFront, Navigation } from 'lucide-react';
 
 export default function Services() {
   // Todo: remove mock functionality - replace with real service data
   const services = [
     {
       icon: Building,
-      title: "Traditional Hoardings",
-      description: "Classic outdoor advertising solutions with proven effectiveness and wide reach.",
-      features: ["Prime Locations", "Weather Resistant", "Large Format"]
+      title: "Hoardings",
+      description: "Large-format outdoor advertising displays positioned in high-traffic areas for maximum brand visibility and impact.",
+      features: ["Prime Locations", "High Visibility", "Large Format"]
     },
     {
-      icon: Globe,
-      title: "Street Furniture",
-      description: "Bus shelters, kiosks, and street-side advertising for urban engagement.",
-      features: ["Urban Integration", "Community Reach", "Professional Design"]
+      icon: Signpost,
+      title: "Cantilevers",
+      description: "Overhead advertising structures extending from poles or buildings, capturing attention from multiple directions.",
+      features: ["360° Visibility", "Strategic Placement", "Durable Construction"]
+    },
+    {
+      icon: Car,
+      title: "Central Medians",
+      description: "Eye-catching advertisements placed along road dividers, reaching commuters and travelers throughout the day.",
+      features: ["Road-Level Exposure", "Continuous Visibility", "High Traffic Areas"]
+    },
+    {
+      icon: Lamp,
+      title: "Pole Kiosks",
+      description: "Compact advertising displays mounted on street poles, ideal for localized marketing and community engagement.",
+      features: ["Street-Level Impact", "Cost Effective", "Wide Coverage"]
     },
     {
       icon: Monitor,
-      title: "Digital Billboards",
-      description: "High-impact LED displays in prime locations for maximum visibility and engagement.",
-      features: ["HD LED Technology", "Dynamic Content", "Real-time Updates"]
+      title: "LED Screens",
+      description: "Dynamic digital displays with vibrant visuals and motion graphics for modern, attention-grabbing advertisements.",
+      features: ["HD Digital Display", "Dynamic Content", "Day & Night Visibility"]
     },
     {
-      icon: Zap,
-      title: "Transit Advertising",
-      description: "Mobile advertising solutions on buses, auto-rickshaws, and transport hubs.",
-      features: ["High Mobility", "Daily Exposure", "Cost Effective"]
+      icon: Bus,
+      title: "Bus Shelters",
+      description: "Strategic advertising at bus stop locations, engaging commuters during their daily wait times.",
+      features: ["Captive Audience", "Urban Reach", "Extended Exposure"]
     },
     {
-      icon: Target,
-      title: "Campaign Planning",
-      description: "Strategic planning and execution of comprehensive advertising campaigns.",
-      features: ["Market Analysis", "Strategic Placement", "ROI Optimization"]
+      icon: MapPin,
+      title: "RTC Bus Stands",
+      description: "High-footfall advertising at major bus terminals reaching thousands of daily commuters and travelers.",
+      features: ["Mass Reach", "Diverse Demographics", "Prime Terminal Locations"]
     },
     {
-      icon: Megaphone,
-      title: "Brand Activation",
-      description: "Creative brand experiences and activations for memorable customer engagement.",
-      features: ["Event Management", "Interactive Experiences", "Brand Storytelling"]
+      icon: Train,
+      title: "Trains",
+      description: "Mobile advertising on train exteriors and interiors, traveling across cities and reaching diverse audiences.",
+      features: ["Regional Coverage", "Moving Billboards", "Long Journey Exposure"]
+    },
+    {
+      icon: TrainFront,
+      title: "Railway Stations",
+      description: "Strategic placements at railway stations capturing attention of thousands of daily passengers and visitors.",
+      features: ["High Footfall", "Waiting Area Visibility", "Multi-Platform Reach"]
+    },
+    {
+      icon: Navigation,
+      title: "Auto Moving Media",
+      description: "Mobile advertising on auto-rickshaws navigating through busy streets and neighborhoods for grassroots reach.",
+      features: ["Hyper-Local Reach", "Mobile Visibility", "Cost Effective"]
     }
   ];
 
