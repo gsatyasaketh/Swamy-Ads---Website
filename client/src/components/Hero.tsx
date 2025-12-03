@@ -25,13 +25,6 @@ export default function Hero() {
       {/* Content */}
       <div className="relative container mx-auto px-4 py-20 pt-32">
         <div className="max-w-3xl">
-          <div className="flex items-center gap-2 mb-6">
-            <MapPin className="h-5 w-5 text-primary" />
-            <span className="text-primary font-medium" data-testid="text-location">
-              Rajahmundry, Andhra Pradesh
-            </span>
-          </div>
-          
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight" data-testid="heading-hero">
             Making Advertising{' '}
             <span className="text-primary">Truly Work</span>{' '}
@@ -45,21 +38,13 @@ export default function Hero() {
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
             <Button 
+              variant="outline"
               size="lg" 
               onClick={() => scrollToSection('contact')}
-              className="text-lg"
+              className="text-lg bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20"
               data-testid="button-get-started"
             >
               Get Started <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-            <Button 
-              variant="outline" 
-              size="lg"
-              onClick={() => scrollToSection('portfolio')}
-              className="text-lg bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20"
-              data-testid="button-view-work"
-            >
-              View Our Work
             </Button>
           </div>
 
@@ -67,7 +52,7 @@ export default function Hero() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 pt-8 border-t border-white/20">
             <div className="text-center sm:text-left">
               <div className="flex items-center justify-center sm:justify-start gap-2 mb-2">
-                <Award className="h-6 w-6 text-primary" />
+                <Award className="h-6 w-6 text-white" />
                 <span className="text-2xl font-bold text-white" data-testid="stat-years">25+</span>
               </div>
               <p className="text-gray-300" data-testid="text-years-experience">Years of Excellence</p>
@@ -75,7 +60,7 @@ export default function Hero() {
             
             <div className="text-center sm:text-left">
               <div className="flex items-center justify-center sm:justify-start gap-2 mb-2">
-                <Users className="h-6 w-6 text-primary" />
+                <Users className="h-6 w-6 text-white" />
                 <span className="text-2xl font-bold text-white" data-testid="stat-clients">500+</span>
               </div>
               <p className="text-gray-300" data-testid="text-satisfied-clients">Satisfied Clients</p>
@@ -83,7 +68,7 @@ export default function Hero() {
             
             <div className="text-center sm:text-left">
               <div className="flex items-center justify-center sm:justify-start gap-2 mb-2">
-                <MapPin className="h-6 w-6 text-primary" />
+                <MapPin className="h-6 w-6 text-white" />
                 <span className="text-2xl font-bold text-white" data-testid="stat-locations">50+</span>
               </div>
               <p className="text-gray-300" data-testid="text-prime-locations">Prime Locations</p>

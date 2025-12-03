@@ -19,19 +19,14 @@ export default function Footer() {
               <img 
                 src={swamyLogo} 
                 alt="Swamy Ads Logo" 
-                className="h-12 w-auto filter invert"
+                className="h-12 w-auto"
                 data-testid="logo-footer"
               />
             </div>
             <p className="text-background/80 mb-4 leading-relaxed" data-testid="text-footer-description">
-              Leading outdoor advertising company in Rajahmundry, delivering effective and impactful 
+              Leading outdoor advertising company in Andhra Pradesh & Telangana, delivering effective and impactful 
               advertising solutions with innovation and excellence.
             </p>
-            <div className="flex items-center gap-2">
-              <span className="text-background/60">Made with</span>
-              <Heart className="h-4 w-4 text-primary" />
-              <span className="text-background/60">in Rajahmundry</span>
-            </div>
           </div>
 
           {/* Quick Links */}
@@ -62,13 +57,6 @@ export default function Footer() {
                 About Us
               </button>
               <button 
-                onClick={() => scrollToSection('portfolio')}
-                className="block text-background/80 hover:text-primary transition-colors"
-                data-testid="footer-nav-portfolio"
-              >
-                Portfolio
-              </button>
-              <button 
                 onClick={() => scrollToSection('contact')}
                 className="block text-background/80 hover:text-primary transition-colors"
                 data-testid="footer-nav-contact"
@@ -87,31 +75,31 @@ export default function Footer() {
               <div className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
                 <div className="text-background/80" data-testid="text-footer-address">
-                  <p>Near Railway Station</p>
-                  <p>Rajahmundry, East Godavari</p>
-                  <p>Andhra Pradesh - 533101</p>
+                  <p>88-2-39, Douglass Gardens, NH-16, Morampudi</p>
+                  <p>Rajamahendravaram, East Godavari District</p>
+                  <p>Andhra Pradesh - 533106</p>
                 </div>
               </div>
               
               <div className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-primary flex-shrink-0" />
                 <a 
-                  href="tel:+919876543210" 
+                  href="tel:+919440176321" 
                   className="text-background/80 hover:text-primary transition-colors"
                   data-testid="link-footer-phone"
                 >
-                  +91 98765 43210
+                  +91 9440176321
                 </a>
               </div>
               
               <div className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-primary flex-shrink-0" />
                 <a 
-                  href="mailto:info@swamyads.com" 
+                  href="mailto:swamyadsrjy@gmail.com" 
                   className="text-background/80 hover:text-primary transition-colors"
                   data-testid="link-footer-email"
                 >
-                  info@swamyads.com
+                  swamyadsrjy@gmail.com
                 </a>
               </div>
             </div>
@@ -121,7 +109,7 @@ export default function Footer() {
         <div className="border-t border-background/20 mt-12 pt-8">
           <div className="text-center text-background/60">
             <p data-testid="text-copyright">
-              © 2024 Swamy Ads. All rights reserved. | Established by Sri Gorripoti Tata Rao, Leading under Mr. Gorripoti Bhaskara Rao
+              © 2025 Swamy Ads. All rights reserved.
             </p>
           </div>
         </div>

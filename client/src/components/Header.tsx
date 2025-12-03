@@ -51,13 +51,6 @@ export default function Header() {
               About Us
             </button>
             <button 
-              onClick={() => scrollToSection('portfolio')}
-              className="text-foreground hover:text-primary transition-colors"
-              data-testid="nav-portfolio"
-            >
-              Portfolio
-            </button>
-            <button 
               onClick={() => scrollToSection('contact')}
               className="text-foreground hover:text-primary transition-colors"
               data-testid="nav-contact"
@@ -110,13 +103,6 @@ export default function Header() {
                 data-testid="nav-mobile-about"
               >
                 About Us
-              </button>
-              <button 
-                onClick={() => scrollToSection('portfolio')}
-                className="text-left text-foreground hover:text-primary transition-colors"
-                data-testid="nav-mobile-portfolio"
-              >
-                Portfolio
               </button>
               <button 
                 onClick={() => scrollToSection('contact')}
