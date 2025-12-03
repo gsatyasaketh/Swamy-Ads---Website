@@ -5,28 +5,28 @@ export default function Services() {
   // Todo: remove mock functionality - replace with real service data
   const services = [
     {
-      icon: Monitor,
-      title: "Digital Billboards",
-      description: "High-impact LED displays in prime locations for maximum visibility and engagement.",
-      features: ["HD LED Technology", "Dynamic Content", "Real-time Updates"]
-    },
-    {
       icon: Building,
       title: "Traditional Hoardings",
       description: "Classic outdoor advertising solutions with proven effectiveness and wide reach.",
       features: ["Prime Locations", "Weather Resistant", "Large Format"]
     },
     {
-      icon: Zap,
-      title: "Transit Advertising",
-      description: "Mobile advertising solutions on buses, auto-rickshaws, and transport hubs.",
-      features: ["High Mobility", "Daily Exposure", "Cost Effective"]
-    },
-    {
       icon: Globe,
       title: "Street Furniture",
       description: "Bus shelters, kiosks, and street-side advertising for urban engagement.",
       features: ["Urban Integration", "Community Reach", "Professional Design"]
+    },
+    {
+      icon: Monitor,
+      title: "Digital Billboards",
+      description: "High-impact LED displays in prime locations for maximum visibility and engagement.",
+      features: ["HD LED Technology", "Dynamic Content", "Real-time Updates"]
+    },
+    {
+      icon: Zap,
+      title: "Transit Advertising",
+      description: "Mobile advertising solutions on buses, auto-rickshaws, and transport hubs.",
+      features: ["High Mobility", "Daily Exposure", "Cost Effective"]
     },
     {
       icon: Target,
