@@ -42,21 +42,21 @@ export default function Services() {
     },
     {
       icon: MapPin,
-      title: "RTC Bus Stands",
+      title: "RTC Bus Stations",
       description: "High-footfall advertising at major bus terminals reaching thousands of daily commuters and travelers.",
       features: ["Mass Reach", "Diverse Demographics", "Prime Terminal Locations"]
+    },
+    {
+      icon: TrainFront,
+      title: "Railway Station",
+      description: "Strategic placements at railway stations capturing attention of thousands of daily passengers and visitors.",
+      features: ["High Footfall", "Waiting Area Visibility", "Multi-Platform Reach"]
     },
     {
       icon: Train,
       title: "Trains",
       description: "Mobile advertising on train exteriors and interiors, traveling across cities and reaching diverse audiences.",
       features: ["Regional Coverage", "Moving Billboards", "Long Journey Exposure"]
-    },
-    {
-      icon: TrainFront,
-      title: "Railway Stations",
-      description: "Strategic placements at railway stations capturing attention of thousands of daily passengers and visitors.",
-      features: ["High Footfall", "Waiting Area Visibility", "Multi-Platform Reach"]
     },
     {
       icon: Navigation,

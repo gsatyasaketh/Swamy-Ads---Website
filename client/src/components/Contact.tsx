@@ -229,9 +229,9 @@ export default function Contact() {
                     <option value="pole-kiosks">Pole Kiosks</option>
                     <option value="led-screens">LED Screens</option>
                     <option value="bus-shelters">Bus Shelters</option>
-                    <option value="rtc-bus-stands">RTC Bus Stands</option>
+                    <option value="rtc-bus-stations">RTC Bus Stations</option>
+                    <option value="railway-station">Railway Station</option>
                     <option value="trains">Trains</option>
-                    <option value="railway-stations">Railway Stations</option>
                     <option value="auto-moving-media">Auto Moving Media</option>
                   </select>
                 </div>
