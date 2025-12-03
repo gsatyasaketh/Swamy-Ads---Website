@@ -38,7 +38,7 @@ export default function Contact() {
               <CardHeader>
                 <CardTitle className="flex items-center gap-3">
                   <MapPin className="h-6 w-6 text-primary" />
-                  <span data-testid="title-address">Our Office</span>
+                  <span data-testid="title-address">Registered Office</span>
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -47,14 +47,43 @@ export default function Contact() {
                     Swamy Ads
                   </p>
                   <p className="text-muted-foreground" data-testid="text-address-line1">
-                    Near Railway Station
+                    88-2-39, Douglass Gardens, NH-16, Morampudi
                   </p>
                   <p className="text-muted-foreground" data-testid="text-address-line2">
-                    Rajahmundry, East Godavari District
+                    Rajamahendravaram, East Godavari District
                   </p>
                   <p className="text-muted-foreground" data-testid="text-address-line3">
-                    Andhra Pradesh - 533101
+                    Andhra Pradesh - 533106
                   </p>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-3">
+                  <MapPin className="h-6 w-6 text-primary" />
+                  <span data-testid="title-branch-offices">Branch Offices</span>
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-6">
+                  <div className="space-y-2">
+                    <p className="font-medium text-foreground" data-testid="text-branch-hyderabad">
+                      Hyderabad
+                    </p>
+                    <p className="text-muted-foreground text-sm" data-testid="text-address-hyderabad">
+                      2-1-414/1, F.No 401, Sai Krupa Residency, Mayuri Lane, Nallakunta, Hyderabad - 500044
+                    </p>
+                  </div>
+                  <div className="space-y-2">
+                    <p className="font-medium text-foreground" data-testid="text-branch-vijayawada">
+                      Vijayawada
+                    </p>
+                    <p className="text-muted-foreground text-sm" data-testid="text-address-vijayawada">
+                      Flat No. 501, Opposite Vijayawada Club, Tadepalli, Vijayawada
+                    </p>
+                  </div>
                 </div>
               </CardContent>
             </Card>
@@ -194,12 +223,16 @@ export default function Contact() {
                     data-testid="select-service"
                   >
                     <option value="">Select a service</option>
-                    <option value="digital-billboard">Digital Billboards</option>
-                    <option value="traditional-hoarding">Traditional Hoardings</option>
-                    <option value="transit">Transit Advertising</option>
-                    <option value="street-furniture">Street Furniture</option>
-                    <option value="campaign-planning">Campaign Planning</option>
-                    <option value="brand-activation">Brand Activation</option>
+                    <option value="hoardings">Hoardings</option>
+                    <option value="cantilevers">Cantilevers</option>
+                    <option value="central-medians">Central Medians</option>
+                    <option value="pole-kiosks">Pole Kiosks</option>
+                    <option value="led-screens">LED Screens</option>
+                    <option value="bus-shelters">Bus Shelters</option>
+                    <option value="rtc-bus-stands">RTC Bus Stands</option>
+                    <option value="trains">Trains</option>
+                    <option value="railway-stations">Railway Stations</option>
+                    <option value="auto-moving-media">Auto Moving Media</option>
                   </select>
                 </div>
                 
