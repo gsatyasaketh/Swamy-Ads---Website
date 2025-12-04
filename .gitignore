@@ -1,5 +1,5 @@
 node_modules
-dist
+# dist - commented out to allow cPanel deployment
 .DS_Store
 server/public
 vite.config.ts.*

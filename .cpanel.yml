@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/fenzzngqqbya/public_html
+    - /bin/mkdir -p $DEPLOYPATH
+    - /bin/cp -R dist/public/* $DEPLOYPATH/
+    - /bin/cp .htaccess $DEPLOYPATH/
+
