@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Eye, Target, Heart, Users } from "lucide-react";
-import teamImage from "@assets/generated_images/Advertising_team_at_work_534df93b.png";
+import teamImage from "@assets/IMG_7277.jpg";
 
 export default function About() {
   return (
@@ -48,7 +48,7 @@ export default function About() {
           <div className="relative">
             <img
               src={teamImage}
-              alt="Swamy Ads team at work"
+              alt="Swamy Ads office building"
               className="rounded-lg shadow-lg w-full h-[400px] object-cover"
               data-testid="img-team"
             />
